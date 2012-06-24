@@ -1,0 +1,49 @@
+div, canvas {
+	border: solid black 1px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	box-shadow: 3px 3px 5px #888888;
+}
+
+#instructions {
+        border: none;
+        box-shadow: none;
+        
+        color: #424242;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", 
+			Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 100%;
+	font-size: 14pt;
+	font-variant: small-caps;
+        
+}
+
+#instructions p:first-letter {
+        text-transform: uppercase;
+}
+
+#gameOfLifeToolbar {
+	margin-bottom: 7px;
+	height: 55px;
+	text-align: left;
+	vertical-align: center;
+}
+
+#gameOfLifeToolbar canvas {
+	width: 40px;
+	height: 40px;
+	display: inline;
+	margin-left: 14px;
+	margin-top: 5px;	
+}
+
+#gameOfLife {
+	height: 600px;
+}
+
+
