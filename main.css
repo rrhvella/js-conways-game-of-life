@@ -7,7 +7,7 @@ div, canvas {
 	box-shadow: 3px 3px 5px #888888;
 }
 
-#instructions {
+.instructions {
         border: none;
         box-shadow: none;
         
@@ -23,7 +23,7 @@ div, canvas {
         
 }
 
-#instructions p:first-letter {
+.instructions p:first-letter {
         text-transform: uppercase;
 }
 
